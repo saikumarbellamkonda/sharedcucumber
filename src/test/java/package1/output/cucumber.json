@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-24T10:32:58.483Z",
+        "line": 2,
+        "name": "Add two number",
+        "description": "",
+        "id": "test-calculator;add-two-number",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2120700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I enter 50 in calculator",
+            "match": {
+              "location": "stepdef.given()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 102800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I press add",
+            "match": {
+              "location": "stepdef.and()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have entered 50 in calculator",
+            "match": {
+              "location": "stepdef.andd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I press equal symbol",
+            "match": {
+              "location": "stepdef.when()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The result should be 100 on screen",
+            "match": {
+              "location": "stepdef.then()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test calculator",
+    "description": "",
+    "id": "test-calculator",
+    "keyword": "Feature",
+    "uri": "classpath:package1/sai.feature",
+    "tags": []
+  }
+]
